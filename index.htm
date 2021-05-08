@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Timer</h1>
+    
+    <div id="pomodoro">  
+      <img src="back.png" style="width:350px; height:350px">
+      <div id="status"></div>
+      <div class="timerDisplay">0:00</div>
+      <button id="start-btn" class="btn">START</button>
+    </div>
+    
+    <div class="settings">
+      <div id="work">
+        <p>Work Duration</p>
+        <button class="btn-settings" id="work-plus">+</button>
+        <div><span id="work-min">25</span> mins</div>
+        <button class="btn-settings" id="work-minus">-</button>
+      </div>
+      
+      <button id="reset" class="btn">SET</button>
+      
+      <div id="break">
+        <p>Break Duration</p>
+        <button class="btn-settings" id="break-plus">+</button>
+        <div><span id="break-min">5</span> mins</div>
+        <button class="btn-settings" id="break-minus">-</button>
+      </div>
+    </div>
+    
+    
+  </div>
+</body>
+</html>
+
+<script src="script.js"></script>
